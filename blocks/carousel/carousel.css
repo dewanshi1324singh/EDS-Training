@@ -107,7 +107,6 @@
   top: 103%;
   transform: translateY(-50%);
   left: 12px;
-  right: 0px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -154,10 +153,6 @@
   left: calc(50% - 2px);
 }
 
-.carousel-navigation-buttons {
-  float: right;
-  margin-top: 0;
-}
 
 .carousel-container .default-content-wrapper h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -191,6 +186,7 @@ width: 5pc;
 
   .carousel .carousel-slide .carousel-slide-content {
       --slide-content-width: 94%;
+
       padding-bottom: 0;
       left: 2%;
       top: -40%;
